@@ -1,106 +1,106 @@
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 /* body rules */
 
 body {
-    font-family: Verdana; 
-    font-size: 16px; 
+  font-family: Verdana;
+  font-size: 16px;
 }
 
 /* header rules */
 
 header {
-    background-color: #A67951;
-    background-color: rgb(216, 192, 148);
-    padding: 1rem 2%;
+  background-color: rgb(216, 192, 148);
+  padding: 1rem 2%;
 }
 
 header h1 {
-margin: 0;
-font-family: 'Alfa Slab One', cursive;
-font-family: 'Passion One', cursive;
-font-size: 3.3rem;
-letter-spacing: .04em;
+  margin: 0;
+
+  font-family: "Passion One", cursive;
+  font-size: 3.3rem;
+  letter-spacing: 0.04em;
 }
 
 header h2 {
-margin:0;
-font-size: 1.3rem;
+  margin: 0;
+  font-size: 1.3rem;
 }
 
 /* nav rules */
 
-
 nav {
-    background-color: rgb(216, 192, 148);
-    background-color: rgb(165, 129, 97);
+  background-color: rgb(165, 129, 97);
 }
 
-nav ul {margin: 0; padding: 0;}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
 nav li {
-    list-style-type: none; 
+  list-style-type: none;
 }
 nav li.active {
-    background-color: #355469;
+  background-color: #355469;
 }
 
 nav a {
-    display: block;
-    padding: .8rem 0;
-    color: #eee;
-    text-align: center;
-    text-decoration: none;
-    
+  display: block;
+  padding: 0.8rem 0;
+  color: #eee;
+  text-align: center;
+  text-decoration: none;
 }
 
 nav a:hover {
-    background-color: #466e8a;
+  background-color: #466e8a;
 }
-
 
 /* main rules */
 
 main {
-    padding: 1rem 2%; 
-    display: block; 
-    line-height: 1.5rem;
+  padding: 1rem 2%;
+  display: block;
+  line-height: 1.5rem;
 }
 
 main h1 {
-    color: rgb(111, 129, 62);
-    color: #355469;
+  color: #355469;
 }
 
-main figure img {width: 100%;}
+main figure img {
+  width: 100%;
+}
 
 main figure {
-    width: 100%;
-    margin: 0;
+  width: 100%;
+  margin: 0;
 }
 
 main figcaption {
-    text-align: center; font-size: .8rem;
+  text-align: center;
+  font-size: 0.8rem;
 }
 
 main p {
-    padding-right: 2%; 
+  padding-right: 2%;
 }
 
 /* footer */
 
 footer {
-    text-align: center; 
-    margin-top: 5%;
-    padding: 1rem 2%;
-    background-color: rgb(216, 192, 148);
+  text-align: center;
+  margin-top: 5%;
+  padding: 1rem 2%;
+  background-color: rgb(216, 192, 148);
 }
 
-
-
-
-
 .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
